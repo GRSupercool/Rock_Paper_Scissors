@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Rock Paper Scissors </title>
 </head>
 
@@ -20,21 +20,21 @@
         <span id="user-score">0</span>:<span id="computer-score">0</span>
     </div>
     <div class="result">
-        <p>Paper Covers Rock. You Win!</p>
+        <p>Paper Covers Rock.You Win!</p>
     </div>
-    <div class="choices"></div>
-    <div class="choice"></div>
-    <img src="img/Rock.png" alt="fluorescent closed fist">
-
-    <div class="choices"></div>
-    <div class="choice"></div>
-    <img src="img/Paper.png" alt="fluorescent open palm">
-
-    <div class="choices"></div>
-    <div class="choice"></div>
-    <img src="img/Scissors.png" alt="fluorescent hand for scissors">
-
-    <p id="action-message">Make Your Move</p>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="img/Rock.png" alt="fluorescent closed fist">
+        </div>
+        <div class="choices">
+            <div class="choice" id="paper">
+                <img src="img/Paper.png" alt="fluorescent open palm">
+            </div>
+            <div class="choices">
+                <div class="choice" id=scissors>
+                    <img src="img/Scissors.png" alt="fluorescent hand for scissors">
+                </div>
+                <p id="action-message">Make Your Move</p>
 </body>
 
 </html>
