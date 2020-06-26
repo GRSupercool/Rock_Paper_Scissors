@@ -67,10 +67,18 @@ body {
     font-weight: bold;
 }
 
+.choices {
+    display: inline-block;
+}
+
 .choice {
     display: inline-block;
-    border-radius: 50%;
     padding: 10px;
     margin: 0 15px;
     transition: all 0.3s ease;
+}
+
+.choice:hover {
+    background: #42ecf5;
+    cursor: pointer;
 }
